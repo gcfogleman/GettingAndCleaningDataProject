@@ -30,7 +30,7 @@ Change the column headings in x_test and x_train to the variable names given by 
 
 Create new dataframes with additional columns at the beginning:
 testDataSetDF adds "test" as the value of the first variable (TestOrTrain), SubjectLabel and the second, and TestLabel as the third.
-TrainDataSetDF adds "train" s the value of the first variable (TestOrTrain), SubjectLabel and the second, and TestLabel as the third.
+TrainDataSetDF adds "train" as the value of the first variable (TestOrTrain), SubjectLabel and the second, and TestLabel as the third.
 
 Combine the two datasets into a single dataset called DataSetDF.
 The first column says whether the row is from the test or the train dataset.

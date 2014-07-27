@@ -9,7 +9,7 @@ The 6 activities are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STA
 The thirty subjects are identified by their SubjectLabel, which is an integer between 1 and 30.
 
 The first column gives the activity name, the second column gives the subject number
-The next 79 columns give the mean of the set of mean and standard deviations of accelerometer readings from the original datasets.
+The next 79 columns give the mean of the set of mean and standard deviations of accelerometer and gyroscope readings from the original datasets.
 The 79 means are derived from the 561 features in the original dataset.  
 Only the means of the features that involve measurements of the mean or standard deviations are included. 
 Features are described in the code book for the original data set (reproduced below).

@@ -7,6 +7,8 @@ GettingAndCleaningDataProject
 
 Class project for "Getting and Cleaning Data" Coursera class
 
+Project is to create a tidy data set from the original data at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 
 The run_analysis.R  script creates the tidyDataSet.txt  dataset.  
 This ReadMe file describes how the R script works.

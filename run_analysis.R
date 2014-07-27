@@ -37,11 +37,11 @@ trainDataSetDF <- cbind(subject_trainDF, y_trainDF)
 
 #  Make the first column of each DataSet "test" or "train"
 Atest <- as.data.frame(rep("test", length(testDataSetDF$SubjectLabel)))
-colnames(Atest) <- "test-or-train"
+colnames(Atest) <- "TestOrTrain"
 testDataSetDF <- cbind(Atest, testDataSetDF)
 
 Atrain <- as.data.frame(rep("train", length(trainDataSetDF$SubjectLabel)))
-colnames(Atrain) <- "test-or-train"
+colnames(Atrain) <- "TestOrTrain"
 trainDataSetDF <- cbind(Atrain, trainDataSetDF)
 
 ## Add the test and train data to the DataSet dataframes
@@ -81,7 +81,8 @@ colnames(mergedData)[1] <- "Activity"
 #    5. Create a second, independent tidy data set
 library(plyr)
 
-tidyDataSet <- ddply(mergedData, .(Activity, SubjectLabel), fun = mean)
+## Use the ddply function to create the required tidy data set
+tidyDataSet <- ddply(mergedData, .(Activity, SubjectLabel), numcolwise(mean))
 
 ##  Create a .txt file with the dataset
 write.table(tidyDataSet, file = "tidyDataSet.txt")

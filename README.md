@@ -38,7 +38,7 @@ The second column gives the subject number (1 to 30).
 The third column gives the Test label (1 to 6).
 The other 561 columns give the values of the 561 variables listed in features.
 
-Use grep to extract only the mean measurements and the standard deviation measurements.
+Use the grep function to extract only the mean measurements and the standard deviation measurements.
 This dataset, ReducedDataSetDF, has the same first three columns as DataSetDF, but
   only 79 variable measurements (out of the original 561 measurments).
 

@@ -1,5 +1,20 @@
 
+Code Book for the Tidy Data Set
 
+The data set contains 180 rows and 81 columns
+
+Each row contains summary measurements for one of 30 subjects while performing one of 6 activities.
+Note that 30 times 6 is 180.
+The 6 activities are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING. 
+The thirty subjects are identified by their SubjectLabel, which is an integer between 1 and 30.
+
+The first column gives the activity name, the second column gives the subject number
+The next 79 columns give the mean of the set of mean and standard deviations of accelerometer readings from the original datasets.
+The 79 means are derived from the 561 features in the original dataset.  
+Only the means of the features that involve measurements of the mean or standard deviations are included. 
+Features are described in the code book for the original data set (reproduced below).
+Units for the 79 variables in columns 3 to 81 are in units of "g" for Acc (acceleration) variables
+   and radians/second for Gyro (gyroscope - angular velocity) variables.
 
 
 

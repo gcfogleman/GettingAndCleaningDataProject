@@ -6,7 +6,6 @@ Class project for "Getting and Cleaning Data" Coursera class
 
 
 
-Class project for "Getting and Cleaning Data" Coursera class
 
 
 The run_analysis.R  script creates the tidyDataSet.txt  dataset.  

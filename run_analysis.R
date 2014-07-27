@@ -82,5 +82,8 @@ colnames(mergedData)[1] <- "Activity"
 library(plyr)
 
 tidyDataSet <- ddply(mergedData, .(Activity, SubjectLabel), fun = mean)
+
+##  Create a .txt file with the dataset
 write.table(tidyDataSet, file = "tidyDataSet.txt")
-""   tidyDataSet.txt was uploaded to the Coursera web page
+##  tidyDataSet.txt was uploaded to the Coursera web page
+

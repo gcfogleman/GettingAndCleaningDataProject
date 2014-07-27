@@ -2,7 +2,7 @@
 ## Make sure the file "UCI HAR Dataset" is in the working directory
 
 
-#    1. Merge the training and the test sets
+#    1. Merge the training and the test sets (this step not completed until below, before step 5)
 
 ## Read the test data into dataframes
 X_testDF <- read.table("UCI HAR Dataset/test/X_test.txt")     ##  2947 by 561
